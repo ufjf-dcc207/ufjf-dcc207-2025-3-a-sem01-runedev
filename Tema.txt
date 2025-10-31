@@ -1,1 +1,0 @@
-Temos como tema para o trabalho, Campeões do jogo "League of Legends", com o objetivo de mostrar os cards dos campeões e algumas informações iniciais. Com o decorrer do projeto, temos como objetivo criar uma segunda parte que fale sobre os campeões mais detalhadamente, com seus atributos e história.
