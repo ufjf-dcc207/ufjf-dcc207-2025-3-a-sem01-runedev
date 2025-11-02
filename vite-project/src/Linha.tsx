@@ -8,18 +8,26 @@ type LinhaProps = {
 export default function Linha({ linha }: LinhaProps) {
   return (
     <li className="linha">
-      <h2 className="linha-title">{linha.nome} - {linha.tipo} - {linha.regiao}</h2>
-
+      <h2 className="linha-title">
+        {linha.nome} - {linha.tipo}
+      </h2>
       <ul className="campeoes">
         {linha.campeaoCard.map((card) => {
           return (
             <li className="campeao-card" key={card.id}>
-                <img src={card.imagemUrl} alt={card.texto} className="campeao-imagem" />
+              <img
+                src={card.imagemUrl}
+                alt={card.texto}
+                className="campeao-imagem"
+              />
               <div className="campeao-dano">Tipo de Dano: {card.tipoDano}</div>
+              <div className="linha-regiao">Região: {linha.regiao}</div>
             </li>
-          )
+          );
         })}
       </ul>
+
+      
     </li>
   );
 }
