@@ -1,12 +1,31 @@
 {
-    "Projeto": "Campeoes de Runeterra",
-    "linhas": [
+    "projeto": "Campeoes de Runeterra",
+    "linha": [
         {
-            "nome": "Neeko","tipo": "Mago","regiao": "Ixtal","campeaoCard": [
+            "nome": "Neeko",
+            "tipo": "Mago",
+            "regiao": "Ixtal",
+            "campeaoCard": [
                 {
-                    "id": "1","texto": "Campeão 1", "tipoDano": 50
+                    "id": "1",
+                    "texto": "Campeão 1",
+                    "tipoDano": "Mágico"
                 }
             ]
+            
+        },
+        {
+            "nome": "Ahri",
+            "tipo": "Assassino",
+            "regiao": "Ionia",
+            "campeaoCard": [
+                {
+                    "id": "2",
+                    "texto": "Campeão 2",
+                    "tipoDano": "Mágico"
+                }
+        
+    ]
         }
     ]
 }

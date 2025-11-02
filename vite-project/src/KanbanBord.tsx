@@ -11,9 +11,9 @@ export default function KanbanBord({ quadro }: KanbanBordProps) {
         <h1>{quadro.projeto}</h1>
 
         <div className="linhas">
-          {quadro.linha.map((linha) => (
-            <Linha key={linha.nome} linha={linha} />
-          ))}
+          {quadro.linha.map((linha) => {
+             return <Linha key={linha.nome} linha={linha} />
+          })}
         </div>
       </div>
     );

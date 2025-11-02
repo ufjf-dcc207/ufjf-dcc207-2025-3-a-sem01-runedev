@@ -2,7 +2,7 @@ import './App.css'
 import KanbanBord from './KanbanBord';
 import json from './data.json';
 
-const data = json as unknown as KanbanBordType;
+const data = json as  KanbanBordType;
 
 export type KanbanBordType = {
   projeto: string,
@@ -18,16 +18,13 @@ export type LinhaType = {
 export type CardType = {
   id: string,
   texto: string,
-  tipoDano: number,
+  tipoDano: string,
 }
 
 function App() {
 
   return (
-    <>
-      <h1>Kanban Board de Campeões</h1>
       <KanbanBord quadro={data} />
-    </>
   )
 }
 
