@@ -17,6 +17,7 @@ export type LinhaType = {
 
 export type CardType = {
   id: string,
+  imagemUrl: string,
   texto: string,
   tipoDano: string,
 }

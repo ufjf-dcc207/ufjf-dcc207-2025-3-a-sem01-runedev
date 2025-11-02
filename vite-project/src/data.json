@@ -21,6 +21,7 @@
             "campeaoCard": [
                 {
                     "id": "2",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/55e7e901b1f69d72804665cfbeb1f4f59c8fa877-496x560.jpg?auto=format&fit=fill&q=80&w=415",
                     "texto": "Campeão 2",
                     "tipoDano": "Mágico"
                 }

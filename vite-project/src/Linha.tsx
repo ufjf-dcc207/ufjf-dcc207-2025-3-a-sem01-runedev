@@ -14,7 +14,7 @@ export default function Linha({ linha }: LinhaProps) {
         {linha.campeaoCard.map((card) => {
           return (
             <li className="campeao-card" key={card.id}>
-              <div className="campeao-texto">{card.texto}</div>
+                <img src={card.imagemUrl} alt={card.texto} className="campeao-imagem" />
               <div className="campeao-dano">Tipo de Dano: {card.tipoDano}</div>
             </li>
           )
