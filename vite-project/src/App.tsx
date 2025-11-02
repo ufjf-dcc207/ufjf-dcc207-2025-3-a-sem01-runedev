@@ -1,34 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import KanbanBord from './KanbanBord';
+import json from './data.json';
+
+const data = json as KanbanBordType;
+
+export type KanbanBordType = {
+  projeto: string,
+  linha: Array<LinhaType>;
+}
+export type LinhaType = {
+  nome: string,
+  tipo: string,
+  regiao: string,
+  campeaoCard: Array<CardType>;
+}
+
+export type CardType = {
+  id: string,
+  texto: string,
+  tipoDano: number,
+}
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <KanbanBord quadro={data} />
   )
 }
 

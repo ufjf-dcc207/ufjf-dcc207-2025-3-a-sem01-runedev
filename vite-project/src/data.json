@@ -1,0 +1,17 @@
+{
+    "Projeto": "Campeoes de Runeterra",
+    "linhas": [
+        {
+            "nome": "Neeko",
+            "tipo": "Mago/Suporte",
+            "regiao": "Região de Ixtal",
+            "campeaoCard": [
+                {
+                    "id": "1",
+                    "texto": "Campeão 1",
+                    "tipoDano": 50
+                }
+            ]
+        }
+    ]
+}
