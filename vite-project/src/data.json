@@ -79,6 +79,32 @@
                     "tipoDano": "Físico"
                 }
             ]
+        },
+        {
+            "nome": "Karma",
+            "tipo": "Suporte",
+            "regiao": "Yonia",
+            "campeaoCard": [
+                {
+                    "id": "7",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6070fe3be64810d5109a53c9812e1937202e45d8-496x560.jpg?auto=format&fit=fill&q=80&w=352",
+                    "texto": "Campeão 7",
+                    "tipoDano": "Mágico"
+                }
+            ]
+        },
+        {
+            "nome": "Swain",
+            "tipo": "Mago",
+            "regiao": "Noxus",
+            "campeaoCard": [
+                {
+                    "id": "8",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d01f2a33d48dc88ed4bf21adea7eb664b528e526-496x560.jpg?auto=format&fit=fill&q=80&w=352",
+                    "texto": "Campeão 8",
+                    "tipoDano": "Mágico"
+                }
+            ]
         }
     ]
 }
