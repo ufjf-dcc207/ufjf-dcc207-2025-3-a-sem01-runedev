@@ -24,8 +24,55 @@
                     "texto": "Campeão 2",
                     "tipoDano": "Mágico"
                 }
-        
-    ]
+            ]
+        },
+        {
+            "nome": "Renekton",
+            "tipo": "Lutador",
+            "regiao": "Shurima",
+            "campeaoCard": [
+                {
+                    "id": "3",
+                    "texto": "Campeão 3",
+                    "tipoDano": "Físico"
+                }
+            ]
+        },
+        {
+            "nome": "Kaisa",
+            "tipo": "Atirador",
+            "regiao": "Vazio",
+            "campeaoCard": [
+                {
+                    "id": "4",
+                    "texto": "Campeão 4",
+                    "tipoDano": "Híbrido"
+                }
+            ]
+        },
+        {
+            "nome": "Lulu",
+            "tipo": "Suporte",
+            "regiao": "Bandópolis",
+            "campeaoCard": [
+                {
+                    "id": "5",
+                    "texto": "Campeão 5",
+                    "tipoDano": "Mágico"
+                }
+            ]
+        },
+        {
+            "nome": "MIss Fortune",
+            "tipo": "Atirador",
+            "regiao": "Águas de Sentina",
+            "campeaoCard": [
+                {
+                    "id": "6",
+                    "texto": "Campeão 6",
+                    "tipoDano": "Físico"
+                }
+            ]
         }
     ]
 }
