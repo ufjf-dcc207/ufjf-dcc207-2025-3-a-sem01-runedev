@@ -105,6 +105,32 @@
                     "tipoDano": "Mágico"
                 }
             ]
+        },
+        {
+            "nome": "Twitch",
+            "tipo": "Atirador",
+            "regiao": "Zaun",
+            "campeaoCard": [
+                {
+                    "id": "9",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d7f78ff166e9234ea1a2f8837236b4d0c7e7bd28-496x560.jpg?auto=format&fit=fill&q=80&w=352",
+                    "texto": "Campeão 9",
+                    "tipoDano": "Híbrido"
+                }
+            ]
+        },
+        {
+            "nome": "Yorik",
+            "tipo": "Lutador",
+            "regiao": "Ilha das Sombras",
+            "campeaoCard": [
+                {
+                    "id": "10",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/38d1cc6f80ca931c894f36c222bad76cfe1a25da-496x560.jpg?auto=format&fit=fill&q=80&w=352",
+                    "texto": "Campeão 10",
+                    "tipoDano": "Físico"
+                }
+            ]
         }
     ]
 }
