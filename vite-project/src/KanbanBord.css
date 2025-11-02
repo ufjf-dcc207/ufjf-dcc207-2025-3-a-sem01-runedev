@@ -1,0 +1,9 @@
+.linha {
+        display: inline-block;
+        padding: 8px;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        background: #ffffff;
+        margin-bottom: 12px;
+        list-style: none;
+}
