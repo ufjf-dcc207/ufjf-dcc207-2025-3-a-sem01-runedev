@@ -1,0 +1,44 @@
+.linha{
+        display: block;
+        padding: 8px;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        background: #fff;
+        margin-bottom: 12px;
+}
+
+.linha-title {
+    margin: 0 0 8px 0;
+    font-size: 1rem;
+}
+
+.campeoes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* quebra em telas pequenas */
+}
+
+.campeao-card {
+    min-width: 140px;
+    max-width: 220px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #f8fafc;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campeao-texto {
+    font-weight: 600;
+}
+
+.campeao-dano {
+    font-size: 0.9rem;
+    color: #374151;
+}
