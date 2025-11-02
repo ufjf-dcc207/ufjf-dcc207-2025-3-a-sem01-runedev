@@ -4,6 +4,8 @@
         border: 1px solid rgb(173, 133, 44);
         border-radius: 6px;
         margin-bottom: 12px;
+        background-color: rgba(185, 180, 180, 0.5);
+
 }
 
 .linha-title {
@@ -40,4 +42,8 @@
 .campeao-dano {
     font-size: 0.9rem;
     color: #000000;
+}
+.linha-regiao{
+    font-size: 1rem;
+    color: #000;
 }
