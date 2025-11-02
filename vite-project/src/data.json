@@ -1,5 +1,5 @@
 {
-    "projeto": "Campeoes de Runeterra",
+    "projeto": "Campeões de Runeterra",
     "linha": [
         {
             "nome": "Neeko",
@@ -83,7 +83,7 @@
         {
             "nome": "Karma",
             "tipo": "Suporte",
-            "regiao": "Yonia",
+            "regiao": "Ionia",
             "campeaoCard": [
                 {
                     "id": "7",

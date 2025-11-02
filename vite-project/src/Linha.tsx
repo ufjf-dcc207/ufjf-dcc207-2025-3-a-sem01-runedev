@@ -9,8 +9,9 @@ export default function Linha({ linha }: LinhaProps) {
   return (
     <li className="linha">
       <h2 className="linha-title">
-        {linha.nome} - {linha.tipo}
+        {linha.nome}
       </h2>
+        <div className="linha-regiao">Região: {linha.regiao}</div>
       <ul className="campeoes">
         {linha.campeaoCard.map((card) => {
           return (
@@ -20,8 +21,9 @@ export default function Linha({ linha }: LinhaProps) {
                 alt={card.texto}
                 className="campeao-imagem"
               />
+              <div className="campeao-tipo">{linha.tipo}</div>
               <div className="campeao-dano">Tipo de Dano: {card.tipoDano}</div>
-              <div className="linha-regiao">Região: {linha.regiao}</div>
+              
             </li>
           );
         })}
