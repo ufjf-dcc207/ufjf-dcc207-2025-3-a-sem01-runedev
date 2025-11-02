@@ -8,6 +8,7 @@
             "campeaoCard": [
                 {
                     "id": "1",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/19bcf3f8a2ef5006235be5b9c35931f323a03620-496x560.jpg?auto=format&fit=fill&q=80&w=352",
                     "texto": "Campeão 1",
                     "tipoDano": "Mágico"
                 }
@@ -34,6 +35,7 @@
             "campeaoCard": [
                 {
                     "id": "3",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d4650df7a5a7c35394ff0f861838f45028ddc247-496x560.jpg?auto=format&fit=fill&q=80&w=352",
                     "texto": "Campeão 3",
                     "tipoDano": "Físico"
                 }
@@ -46,6 +48,7 @@
             "campeaoCard": [
                 {
                     "id": "4",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/516bc1d22979ed9a290321b3474363875a3c7b10-496x560.jpg?auto=format&fit=fill&q=80&w=352",
                     "texto": "Campeão 4",
                     "tipoDano": "Híbrido"
                 }
@@ -58,18 +61,20 @@
             "campeaoCard": [
                 {
                     "id": "5",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fc33bd8b0b190bb820bbfc287f83836692b5c2c7-496x560.jpg?auto=format&fit=fill&q=80&w=352",
                     "texto": "Campeão 5",
                     "tipoDano": "Mágico"
                 }
             ]
         },
         {
-            "nome": "MIss Fortune",
+            "nome": "Miss Fortune",
             "tipo": "Atirador",
             "regiao": "Águas de Sentina",
             "campeaoCard": [
                 {
                     "id": "6",
+                    "imagemUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb6f4d62835fa6e7ba97055baab49408c8c89273-496x560.jpg?auto=format&fit=fill&q=80&w=352",
                     "texto": "Campeão 6",
                     "tipoDano": "Físico"
                 }
