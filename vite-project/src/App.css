@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
+  
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1px;
   text-align: center;
+  background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/eac0d08b1d7b2c3232029f3100f7f5973a58847b-1920x1080.jpg?auto=format&fit=fill&q=80&w=1920');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {

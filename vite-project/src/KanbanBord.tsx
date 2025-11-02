@@ -8,7 +8,7 @@ type KanbanBordProps = {
 export default function KanbanBord({ quadro }: KanbanBordProps) {
     return (
       <div className="Kanban-bord">
-        <h1>{quadro.projeto}</h1>
+        <h1 className="titulo">{quadro.projeto}</h1>
 
         <div className="linhas">
           {quadro.linha.map((linha) => {

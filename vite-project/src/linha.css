@@ -1,7 +1,7 @@
 .linha{
         display: inline-block;
         padding: 8px;
-        border: 1px solid #e5e7eb;
+        border: 1px solid rgb(173, 133, 44);
         border-radius: 6px;
         margin-bottom: 12px;
 }
@@ -9,6 +9,7 @@
 .linha-title {
     margin: 0 0 8px 0;
     font-size: 1rem;
+    color: #000;
 }
 
 .campeoes {
@@ -16,7 +17,7 @@
     flex-direction: row;
     gap: 12px;
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     
 }
@@ -24,7 +25,7 @@
 .campeao-card {
     min-width: 140px;
     max-width: 220px;
-    padding: 8px 10px;
+    padding: 1em 10px;
     border-radius: 6px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.04);
     display: flex;
@@ -38,5 +39,5 @@
 
 .campeao-dano {
     font-size: 0.9rem;
-    color: #374151;
+    color: #000000;
 }
