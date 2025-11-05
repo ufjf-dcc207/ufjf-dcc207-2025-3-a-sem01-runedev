@@ -33,8 +33,21 @@ body {
 h1 {
   font-size: 3.0em;
   line-height: 1.1;
-  color:#1a1a1a;
+  color:#131626;
   font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 0;
 }
 
 button {
